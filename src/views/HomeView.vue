@@ -58,6 +58,11 @@
             </v-list-item>
           </v-list>
         </v-card-item>
+        <v-card-text class="text-body-1">
+          <p>
+            Achtung: Keine Gewähr auf Richtigkeit oder Vollständigkeit.
+          </p>
+        </v-card-text>
       </v-card>
     </v-container>
   </main>

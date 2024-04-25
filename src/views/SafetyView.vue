@@ -428,7 +428,7 @@ export default {
         </v-card>
 
         <v-card class="mt-5">
-          <v-card-title class="text-overline"> Sicherheitskoeffizient </v-card-title>
+          <v-card-title class="text-overline">Sicherheitskoeffizient</v-card-title>
           <v-card-text>
             <div class="text-green-darken-3 text-h3 font-weight-bold">{{ sc }}</div>
 
@@ -446,13 +446,13 @@ export default {
                 v-bind="activatorProps"
                 append-icon="mdi-chevron-right"
                 lines="two"
-                subtitle="Einzuleitenden Maßnahmen"
+                subtitle="Einzuleitende Maßnahmen"
                 link
               ></v-list-item>
             </template>
 
             <template v-slot:default>
-              <v-card title="Empfohlene Maßnahmen">
+              <v-card title="Einzuleitende Maßnahmen">
                 <v-list>
                   <v-list-item v-show="fe.fluchtwege < 4"
                     >Bearbeitung der Veranstaltung</v-list-item
