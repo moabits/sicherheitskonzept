@@ -3,10 +3,19 @@ import { type RouteLocationRaw } from 'vue-router'
 
 export default {
   data: () => ({
-    activeTab: ''
+    activeTab: 0
   }),
   computed: {
     tabs() {
+      console.log([
+        { id: 0, name: 'Startseite', icon: 'mdi-home', to: this.getTabPath('home') },
+        {
+          id: 1,
+          name: 'Sicherheitskoeffizient',
+          icon: 'mdi-shield-check',
+          to: this.getTabPath('munich-safety')
+        }
+      ]);
       return [
         { id: 0, name: 'Startseite', icon: 'mdi-home', to: this.getTabPath('home') },
         {
@@ -20,7 +29,7 @@ export default {
   },
   methods: {
     getTabPath(name: string) {
-      return this.$router.resolve({ name, params: this.$route.params }).href
+      return this.$router.resolve({ name, params: this.$route.params }).fullPath
     },
     updateRouter(path: RouteLocationRaw) {
       this.$router.push(path)
@@ -36,7 +45,7 @@ export default {
 
       <template v-slot:extension>
         <v-tabs v-model="activeTab">
-          <v-tab v-for="tab in tabs" :key="tab.id" :to="tab.to">
+          <v-tab v-for="tab in tabs" :key="tab.id" :to="tab.to" exact>
             <v-icon start>{{ tab.icon }}</v-icon> {{ tab.name }}
           </v-tab>
         </v-tabs>
