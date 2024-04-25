@@ -6,26 +6,28 @@
         <v-col md="5">
           <v-card variant="text" class="mb-5">
             <v-card-title class="px-0">
-              <h1>Münchner Bemessung</h1>
+              <h1>Berliner Modell</h1>
             </v-card-title>
             <v-card-subtitle class="px-0">
-                Zur Festlegung des Kräfteansatzes für Sanitätsdienste auf Veranstaltungen
+              Zur Bemessung des Sanitätsdienstes bei Großveranstaltungen
             </v-card-subtitle>
             <v-card-text class="px-0 pb-0">
               <p>
-                Die Münchner Bemessung ist ein von der Landeshauptstadt München üblicherweise genutztes Maß für die sanitätsdienstliche Absicherung von Veranstaltungen.
-                Die Richtlinie berücksichtigt verschiedene Faktoren wie die erwartete Teilnehmerzahl, die Art der Veranstaltung und das Risikopotenzial.
+                Das Berliner Modell ist ein von der Senatsverwaltung entwickeltes Konzept zur Bemessung des Sanitätsdienstes bei Großveranstaltungen.
+                Es ist grundlegend Vergleichbar mit der Münchner Bemessung.
+                Im Rahmen des Genehmigungsverfahrens wird es als Auflage in den Bescheid oder die Erlaubnis aufgenommen.
+                Das Konzept gibt Auskunft, wie viel Personal mit welcher Qualifikation und welche Fahrzeugtypen bereitgestellt werden müssen.
               </p>
               <small class="d-block my-2">
-                Quelle: P. Bachmeier, J. Thomann, D. Vosteen et. al.
-                "Veranstaltungssicherheit-Leitfaden für Feuerwehr, Sicherheitsbehörde und Polizei sowie Veranstalter und deren Sicherheitsdienstleister."
-                München, Juni 2015.
+                Quelle: Berliner Feuerwehr (Hrsg.)
+                "Sanitätsdienst bei Veranstaltungen"
+                Berlin, 2022.
               </small>
             </v-card-text>
             <v-card-actions class="px-0">
               <v-btn
                 variant="outlined"
-                href="https://stadt.muenchen.de/infos/veranstaltungssicherheit.html"
+                href="https://de.wikipedia.org/wiki/Berliner_Modell_(Sanit%C3%A4tsdienst)"
                 target="_blank"
                 text="Mehr dazu"
                 append-icon="mdi-open-in-new"

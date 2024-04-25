@@ -1,4 +1,4 @@
-import { createRouter, createWebHashHistory, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
@@ -12,7 +12,7 @@ const router = createRouter({
     {
       path: '/muenchner-sicherheitskoeffizient',
       name: 'munich-safety',
-      component: () => import('../views/MunichView.vue')
+      component: () => import('../views/SafetyView.vue')
     },
     {
       path: '/muenchner-bemessung',
@@ -22,17 +22,17 @@ const router = createRouter({
     {
       path: '/maurer-schema',
       name: 'maurer',
-      component: () => import('../views/MunichView.vue')
+      component: () => import('../views/MaurerView.vue')
     },
     {
       path: '/koelner-algorithmus',
-      name: 'koeln',
-      component: () => import('../views/MunichView.vue')
+      name: 'cologne',
+      component: () => import('../views/CologneView.vue')
     },
     {
       path: '/berliner-modell',
       name: 'berlin',
-      component: () => import('../views/MunichView.vue')
+      component: () => import('../views/BerlinView.vue')
     },
     {
       path: '/gefaehrdungsanalyse',

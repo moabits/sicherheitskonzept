@@ -23,14 +23,20 @@
           <v-list lines="one">
             <v-list-item>
               <v-list-item-title>Münchner Methode</v-list-item-title>
-              <v-list-item-subtitle
-                >Methode für die Beurteilung der Brandsicherheit anhand eines
+              <v-list-item-subtitle>
+                Methode für die Beurteilung der Brandsicherheit anhand eines
                 Sicherheitskoeffizienten, basiert auf wissenschaftlichen
-                Erkenntnissen.</v-list-item-subtitle
+                Erkenntnissen.
+                </v-list-item-subtitle>
+            </v-list-item>
+            <v-list-item>
+              <v-list-item-title>Münchner Bemessung</v-list-item-title>
+              <v-list-item-subtitle>
+                Verfahren zur Bemessung des Sanitätswachdienstes bei Veranstaltungen, nimmt einen leistungsfähigen öffentlich-rechtlichen Rettungsdienst an.</v-list-item-subtitle
               >
             </v-list-item>
             <v-list-item>
-              <v-list-item-title> Maurer-Schema</v-list-item-title>
+              <v-list-item-title> Maurer Schema</v-list-item-title>
               <v-list-item-subtitle
                 >Gefährdungsanalyse für Sanitätswachdienste, jedoch nicht für Veranstaltungen auf
                 ausgedehnter Fläche geeignet.</v-list-item-subtitle

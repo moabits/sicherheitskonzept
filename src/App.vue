@@ -7,22 +7,37 @@ export default {
   }),
   computed: {
     tabs() {
-      console.log([
-        { id: 0, name: 'Startseite', icon: 'mdi-home', to: this.getTabPath('home') },
-        {
-          id: 1,
-          name: 'Sicherheitskoeffizient',
-          icon: 'mdi-shield-check',
-          to: this.getTabPath('munich-safety')
-        }
-      ]);
       return [
         { id: 0, name: 'Startseite', icon: 'mdi-home', to: this.getTabPath('home') },
         {
           id: 1,
-          name: 'Sicherheitskoeffizient',
-          icon: 'mdi-shield-check',
+          name: 'Münchner Methode',
+          icon: 'mdi-fire-alert',
           to: this.getTabPath('munich-safety')
+        },
+        {
+          id: 1,
+          name: 'Münchner Bemessung',
+          icon: 'mdi-stethoscope',
+          to: this.getTabPath('munich')
+        },
+        {
+          id: 2,
+          name: 'Maurer Schema',
+          icon: 'mdi-bandage',
+          to: this.getTabPath('maurer')
+        },
+        {
+          id: 3,
+          name: 'Kölner Algorithmus',
+          icon: 'mdi-medical-bag',
+          to: this.getTabPath('cologne')
+        },
+        {
+          id: 4,
+          name: 'Berliner Modell',
+          icon: 'mdi-truck-plus',
+          to: this.getTabPath('berlin')
         }
       ]
     }
