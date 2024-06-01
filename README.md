@@ -14,3 +14,5 @@ Die Tools bieten eine einfache Möglichkeit, die vordefinierten Parameter und Fa
 ## Literatur
 
 - Schmidt, Reiner (2019). Medizinische Gefahrenabwehr bei Großveranstaltungen, Bachelorarbeit.
+- Wefringhaus, Philipp und Bigalke, Stephan (2020). Sanitätsdienste bei Großveranstaltungen, Thieme Verlag.
+- Knopp, Philipp und Dr. Schmidt, Jörg (2010). Der Kölner Algorithmus im Vergleich zum Maurer-Schema, vfdb Forschungsberichte.
