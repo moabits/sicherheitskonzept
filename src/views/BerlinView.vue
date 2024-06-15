@@ -39,6 +39,8 @@
   
         <v-col md="7">
           t.b.d.
+          <br />
+          Achtung: Seit 23. Juni 2020 wird in Berlin stattdessen die Münchner Sanitätsdienstbemessung angewandt.
         </v-col>
       </v-row>
     </v-container>

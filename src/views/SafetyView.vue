@@ -405,7 +405,7 @@ export default {
             <p>
               Die Münchener Methode ist ein strukturiertes und transparentes Verfahren zur Bewertung
               der Brandsicherheit von Veranstaltungen. Sie basiert auf wissenschaftlichen
-              Erkenntnissen und ermöglicht es, spezifische Risiken zu identifizieren, erforderliche
+              Erkenntnissen (u.a. von Dipl.-Ing. Fritz Barth, AVBG BW) und ermöglicht es, spezifische Risiken zu identifizieren, erforderliche
               Maßnahmen festzulegen und vorbereitende Schritte für den Brandschutz zu planen. Dabei
               werden sowohl präventive als auch reaktive Brandschutzaspekte berücksichtigt, um die
               Sicherheit von Veranstaltungen zu gewährleisten.
