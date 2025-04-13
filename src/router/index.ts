@@ -38,6 +38,11 @@ const router = createRouter({
       path: '/gefaehrdungsanalyse',
       name: 'risk',
       component: () => import('../views/MunichView.vue')
+    },
+    {
+      path: '/sakschweski',
+      name: 'sakschweski',
+      component: () => import('../views/SakschewskiView.vue')
     }
   ]
 })

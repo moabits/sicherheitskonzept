@@ -38,6 +38,12 @@ export default {
           name: 'Berliner Modell',
           icon: 'mdi-truck-plus',
           to: this.getTabPath('berlin')
+        },
+        {
+          id: 5,
+          name: 'Sakschweski Typisierung',
+          icon: 'mdi-clipboard-list',
+          to: this.getTabPath('sakschweski')
         }
       ]
     }
